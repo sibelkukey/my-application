@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/orange">
 
     <ImageView
         android:id="@+id/imageView12"
@@ -12,8 +13,9 @@
         android:layout_height="115dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ünlem5855"
-        tools:layout_editor_absoluteY="25dp" />
+        app:srcCompat="@drawable/yuvarlak"
+        tools:layout_editor_absoluteY="25dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView13"
@@ -23,7 +25,8 @@
         android:textColor="#070707"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="161dp" />
+        tools:layout_editor_absoluteY="161dp"
+        tools:ignore="MissingConstraints" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -33,7 +36,8 @@
         android:textColor="#0E0E0E"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -43,7 +47,8 @@
         android:textColor="#040303"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="223dp"
+        tools:ignore="MissingConstraints" />
 
     <RadioButton
         android:id="@+id/radioButton3"
@@ -52,7 +57,8 @@
         android:text="Robbery"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="270dp" />
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="MissingConstraints" />
 
     <RadioButton
         android:id="@+id/radioButton4"
@@ -61,7 +67,8 @@
         android:text="Others"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="270dp" />
+        tools:layout_editor_absoluteY="270dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView14"
@@ -70,43 +77,70 @@
         android:text="Add Photo"
         android:textColor="#090909"
         android:textSize="18sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="353dp" />
+        tools:layout_editor_absoluteY="327dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="368dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="186dp"
         android:layout_height="55dp"
+        android:layout_marginBottom="28dp"
         android:text="ADD"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="718dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="112dp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Gallery"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="455dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Camera"
-        tools:layout_editor_absoluteX="264dp"
-        tools:layout_editor_absoluteY="510dp" />
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="455dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
         android:id="@+id/editText7"
-        android:layout_width="417dp"
-        android:layout_height="117dp"
+        android:layout_width="331dp"
+        android:layout_height="95dp"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="Write an Explanation"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="574dp"
-        android:hint="Write an Explanation"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="530dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/orange">
 
     <ImageView
         android:id="@+id/imageView6"
@@ -12,8 +13,9 @@
         android:layout_height="131dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@mipmap/gfggaawerety"
-        tools:layout_editor_absoluteY="44dp" />
+        app:srcCompat="@drawable/yuvarlak"
+        tools:layout_editor_absoluteY="44dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView8"
@@ -25,7 +27,29 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="215dp" />
+        tools:layout_editor_absoluteY="215dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="285dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button4"
@@ -36,18 +60,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="660dp" />
+        tools:layout_editor_absoluteY="660dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editText6"
-        android:layout_width="319dp"
-        android:layout_height="98dp"
+        android:layout_width="409dp"
+        android:layout_height="97dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="472dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="473dp" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -55,7 +81,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/like"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="587dp" />
+        tools:layout_editor_absoluteY="587dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -63,7 +90,8 @@
         android:layout_height="50dp"
         app:srcCompat="@drawable/unlikee22"
         tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="587dp" />
+        tools:layout_editor_absoluteY="587dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView9"
@@ -73,7 +101,8 @@
         android:textColor="#070707"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="414dp" />
+        tools:layout_editor_absoluteY="414dp"
+        tools:ignore="MissingConstraints" />
 
     <com.google.android.material.chip.Chip
         android:id="@+id/chip2"
@@ -82,7 +111,8 @@
         android:text="Active"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="293dp"
-        tools:layout_editor_absoluteY="414dp" />
+        tools:layout_editor_absoluteY="414dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView10"
@@ -90,7 +120,8 @@
         android:layout_height="46dp"
         android:text="TextView"
         tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="587dp" />
+        tools:layout_editor_absoluteY="587dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView11"
@@ -98,5 +129,6 @@
         android:layout_height="49dp"
         android:text="TextView"
         tools:layout_editor_absoluteX="293dp"
-        tools:layout_editor_absoluteY="588dp" />
+        tools:layout_editor_absoluteY="588dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

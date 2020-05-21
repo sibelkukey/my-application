@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/orange">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView12"
         android:layout_width="169dp"
         android:layout_height="41dp"
         android:text="TRACK IT"
@@ -19,64 +20,94 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteY="179dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button26"
         android:layout_width="158dp"
         android:layout_height="49dp"
         android:text="LOGIN"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="419dp" />
+        tools:layout_editor_absoluteY="468dp"
+        tools:ignore="MissingConstraints"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn15"
         android:layout_width="130dp"
         android:layout_height="42dp"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="521dp" />
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="533dp"
+        tools:ignore="MissingConstraints"/>
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/edpassword"
         android:layout_width="188dp"
         android:layout_height="36dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="207dp"
-        tools:layout_editor_absoluteY="303dp" />
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="347dp"
+        tools:ignore="MissingConstraints"/>
+
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/edusername"
         android:layout_width="188dp"
         android:layout_height="28dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="207dp"
-        tools:layout_editor_absoluteY="251dp" />
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints"/>
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail :"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="237dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@mipmap/mail"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textusername"
         android:layout_width="146dp"
         android:layout_height="29dp"
         android:text=" User Name :"
         android:textAlignment="center"
         android:textColor="#050505"
         android:textSize="20sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="251dp" />
+        tools:layout_editor_absoluteY="297dp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textpassword"
         android:layout_width="126dp"
         android:layout_height="30dp"
         android:text="Password :"
         android:textAlignment="center"
         android:textColor="#070707"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="311dp" />
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:ignore="MissingConstraints"/>
 
     <ImageView
         android:id="@+id/imageView5"
@@ -84,23 +115,36 @@
         android:layout_height="227dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ünlem5855"
-        tools:layout_editor_absoluteY="-22dp" />
+        app:srcCompat="@drawable/yuvarlak"
+        tools:layout_editor_absoluteY="-22dp"
+        tools:ignore="MissingConstraints"/>
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="69dp"
         android:layout_height="55dp"
-        app:srcCompat="@mipmap/gfggaawerety"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="237dp" />
+        app:srcCompat="@mipmap/jhfgjxfhg"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="298dp"
+        tools:ignore="MissingConstraints"/>
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="75dp"
         android:layout_height="52dp"
         app:srcCompat="@mipmap/kiliititi"
-        tools:layout_editor_absoluteX="-8dp"
-        tools:layout_editor_absoluteY="303dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <EditText
+        android:id="@+id/edtmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="237dp"
+        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
