@@ -45,6 +45,14 @@ public class login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kayıt=new Intent(login.this,Registerr.class);
+                startActivity(kayıt);
+                finish();
+            }
+        });
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override

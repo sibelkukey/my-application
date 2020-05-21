@@ -7,16 +7,6 @@
     android:layout_height="match_parent"
     android:background="@color/orange">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="174dp"
-        android:layout_height="131dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/yuvarlak"
-        tools:layout_editor_absoluteY="44dp"
-        tools:ignore="MissingConstraints" />
-
     <TextView
         android:id="@+id/textView8"
         android:layout_width="131dp"
@@ -33,23 +23,23 @@
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="285dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="285dp" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="285dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="285dp" />
 
     <ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="285dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="285dp" />
 
     <Button
         android:id="@+id/button4"
@@ -131,4 +121,14 @@
         tools:layout_editor_absoluteX="293dp"
         tools:layout_editor_absoluteY="588dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="209dp"
+        android:layout_height="197dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/logo"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
