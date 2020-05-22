@@ -23,25 +23,26 @@
         tools:layout_editor_absoluteY="179dp"
         tools:ignore="MissingConstraints" />
 
+
     <Button
         android:id="@+id/button26"
-        android:layout_width="158dp"
-        android:layout_height="49dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:text="LOGIN"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="468dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="519dp" />
 
     <Button
         android:id="@+id/btn15"
-        android:layout_width="130dp"
-        android:layout_height="42dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="533dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="582dp" />
 
     <EditText
         android:id="@+id/edpassword"
@@ -49,20 +50,19 @@
         android:layout_height="36dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="347dp"
-        tools:ignore="MissingConstraints"/>
-
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="420dp" />
 
     <EditText
         android:id="@+id/edusername"
         android:layout_width="188dp"
-        android:layout_height="28dp"
+        android:layout_height="36dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="298dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="362dp" />
 
     <TextView
         android:id="@+id/textemail"
@@ -72,21 +72,21 @@
         android:textAlignment="center"
         android:textColor="#0C0C0C"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="237dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="304dp" />
 
     <TextView
         android:id="@+id/textusername"
-        android:layout_width="146dp"
+        android:layout_width="130dp"
         android:layout_height="29dp"
-        android:text=" User Name :"
+        android:text="User Name :"
         android:textAlignment="center"
         android:textColor="#050505"
         android:textSize="20sp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="297dp" />
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="362dp" />
 
     <TextView
         android:id="@+id/textpassword"
@@ -96,47 +96,46 @@
         android:textAlignment="center"
         android:textColor="#070707"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="357dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="420dp" />
 
     <EditText
         android:id="@+id/edtmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="188dp"
+        android:layout_height="36dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="237dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="300dp" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@mipmap/account_launcher2"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="347dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="406dp" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@mipmap/simge_launcher"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="232dp"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="298dp" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:srcCompat="@mipmap/account_launcher_round"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="282dp"
         tools:ignore="MissingConstraints"
-        />
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <ImageView
         android:id="@+id/imageView13"

@@ -12,7 +12,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="400dp"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
@@ -25,12 +25,6 @@
             android:textSize="20dp"
 
             />
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="match_parent"
-            android:layout_height="90dp"
-            app:srcCompat="@drawable/yuvarlak" />
 
         <TextView
             android:id="@+id/textView12"
@@ -48,15 +42,17 @@
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
             <ImageView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
 
         </LinearLayout>
 
@@ -64,33 +60,29 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginRight="200dp"
+            android:padding="10dp"
             android:text="Type Of Incident"
             android:textColor="#0C0C0C"
-            android:textSize="20sp"
-            android:padding="10dp"
-            />
+            android:textSize="20sp" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
 
         <ImageView
-            android:id="@+id/imageView14"
+            android:id="@+id/like"
             android:layout_width="50dp"
             android:layout_height="60dp"
-            app:srcCompat="@drawable/like"
-           android:layout_marginLeft="40dp"
-            />
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/like" />
 
         <ImageView
-            android:id="@+id/imageView16"
+            android:id="@+id/unlike"
             android:layout_width="50dp"
             android:layout_height="60dp"
-            app:srcCompat="@drawable/unlikee22"
             android:layout_gravity="center"
             android:layout_marginTop="-60dp"
-            />
+            app:srcCompat="@drawable/unlikee22" />
 
 
     </LinearLayout>
